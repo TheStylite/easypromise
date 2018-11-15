@@ -1,7 +1,6 @@
 ## EasyPromise
 
-该工具是一个对象，可以直接使用
-
+该工具是一个对象，可以直接使用，遵循ES6语法，建议在webpack环境中使用，import导入开发环境中
 
 
 ### API
@@ -31,6 +30,3 @@ EasyPomise的内置存放异步任务的数组
 异步并发parllerArg内的所有异步任务.
 
 callback函数有两个参数，err, data。err为执行并发异步任务时所抛出的异常，而data则为执行成功的回调数据，调用时可用if(err)来判断是否有异常，遵循node error-first风格
-
-
-
